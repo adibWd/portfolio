@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adib Hassan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="nav container">
+        <h1 class="logo">Adib Hassan</h1>
+        <ul class="nav-links">
+            <li><a href="#home" class="link">Home</a></li>
+            <li><a href="#projects" class="link">Projects</a></li>
+            <li><a href="#about" class="link">About</a></li>
+            <li><a href="#contact" class="link">Contact</a></li>
+        </ul>
+        <button id="themeToggle" class="theme-btn">🌙</button>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="section home-section">
+    <div class="container home-grid">
+        <img src="images/Adib.jpg" class="profile" alt="Adib Hassan">
+        <div>
+            <h2>Hello, I'm <span class="accent">Adib Hassan</span></h2>
+            <h3 class="typing"></h3>
+            <p class="subtext">
+                Passionate Web Developer and an enthusiast in Machine Learning, Deep Learning, and AI, focused on building modern, efficient digital solutions.
+            </p>
+            <a href="resume.pdf" download="Adib_Hassan_Resume.pdf" class="btn">Download Resume</a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+ 
+    <div class="container">
+        <h2 class="title">About Me</h2>
+        <p class="text">
+            CSE student specializing in Web Development, Java programming, and Machine Learning. I focus on clean code, scalable architecture, and pixel-perfect UI/UX.
+        </p>
+        <p class="text">
+            Hands-on experience with Java, Python, HTML/CSS/JS, APIs, MySQL, and ML algorithms. Passionate about modern tech stacks and AI applications.
+        </p>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="title">Projects</h2>
+        <div class="filters">
+            <button class="filter active" data-filter="all">All</button>
+            <button class="filter" data-filter="web">Web</button>
+            <button class="filter" data-filter="ml">ML</button>
+            <button class="filter" data-filter="java">Java</button>
+        </div>
+        <div class="projects-grid">
+            <div class="project" data-category="java">
+                <h3>Car Rental System (Java)</h3>
+                <p>Complete Java OOP project with booking system, admin panel, billing & availability tracking.</p>
+            </div>
+            <div class="project" data-category="web">
+                <h3>Portfolio Website</h3>
+                <p>Responsive website with dark mode, animations, filtering, and minimal UI.</p>
+            </div>
+            <div class="project" data-category="ml">
+                <h3>CKD Prediction (ML)</h3>
+                <p>Chronic Kidney Disease classification using SVM, XGBoost and Random Forest.</p>
+            </div>
+            <div class="project" data-category="web">
+                <h3>E-Commerce UI</h3>
+                <p>Clean shopping UI with product filtering, cart system and responsive design.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <div class="container center">
+        <h2 class="title">Contact</h2>
+        <p class="text">Email: <b>adib2205101521@diu.edu.bd</b></p>
+        <div class="icons">
+            <a href="mailto:adib2205101521@diu.edu.bd" target="_blank">
+                <img src="/images/gmail.png" class="icon" alt="Email">
+            </a>
+            <a href="https://www.linkedin.com/in/adib-hassan-178204344" target="_blank">
+                <img src="images/linkdln.png" class="icon" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/adibWd" target="_blank">
+                <img src="images/github.png" class="icon" alt="GitHub">
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- BACK TO TOP -->
+<button id="topBtn" class="top-btn">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
